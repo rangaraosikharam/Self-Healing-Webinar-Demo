@@ -23,7 +23,7 @@
          <value>//*[@type = 'submit' and @name = 'add-to-cart-1' and (text() = 'Add to cart' or . = 'Add to cart')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>IMAGE</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
