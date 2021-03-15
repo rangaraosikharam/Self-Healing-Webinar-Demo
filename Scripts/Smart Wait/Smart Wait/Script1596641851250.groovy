@@ -23,6 +23,10 @@ WebUI.navigateToUrl('https://demo.tutorialzine.com/2009/09/simple-ajax-website-j
 
 WebUI.click(findTestObject('Object Repository/Page_A simple AJAX website with jQuery/a_Page 2'))
 
+not_run: WebUI.delay(3)
+
 WebUI.verifyElementText(findTestObject('Object Repository/Page_A simple AJAX website with jQuery/div_Aliquam imperdiet tempor facilisis Sed _4b0df1'), 
     'Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat.')
+
+WebUI.closeBrowser()
 

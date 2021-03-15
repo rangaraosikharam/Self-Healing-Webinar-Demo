@@ -1,0 +1,2106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-03-12T09:59:19</date>
+  <millis>1615517959120</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Demo Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Demo Test Suite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Demo Test Suite</property>
+  <property name="stopImmediately">false</property>
+</record>
+<record>
+  <date>2021-03-12T09:59:19</date>
+  <millis>1615517959132</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = dungngo.mac - 192.168.37.36</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">dungngo.mac - 192.168.37.36</property>
+</record>
+<record>
+  <date>2021-03-12T09:59:19</date>
+  <millis>1615517959132</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2021-03-12T09:59:19</date>
+  <millis>1615517959133</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.37.36</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.37.36</property>
+</record>
+<record>
+  <date>2021-03-12T09:59:19</date>
+  <millis>1615517959134</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = null.null</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">null.null</property>
+</record>
+<record>
+  <date>2021-03-12T09:59:19</date>
+  <millis>1615517959777</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Smart Wait/Smart Wait</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Smart Wait/Smart Wait</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Smart Wait/Smart Wait</property>
+  <property name="source">\Users\dungngo.mac\Katalon Studio\Temp\Self-Healing-Webinar-Demo\Test Cases\Smart Wait\Smart Wait.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2021-03-12T09:59:20</date>
+  <millis>1615517960148</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2021-03-12T09:59:20</date>
+  <millis>1615517960319</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome (headless)&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-12T09:59:20</date>
+  <millis>1615517960331</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;args&amp;apos;, &amp;apos;[1200.0, 800.0]&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-12T09:59:20</date>
+  <millis>1615517960339</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-12T09:59:20</date>
+  <millis>1615517960800</millis>
+  <sequence>16</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to open browser with url: &amp;apos;&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Smart Wait.run(Smart Wait:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615517951068.run(TempTestSuite1615517951068.groovy:39)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: entry 0 of &amp;apos;firstMatch&amp;apos; is invalid
+from invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: cannot parse args
+from invalid argument: each argument must be a string
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;C02VN0SVHV2H.local&amp;apos;, ip: &amp;apos;fe80:0:0:0:8ab:7e71:7afa:d4a6%en0&amp;apos;, os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.14.6&amp;apos;, java.version: &amp;apos;1.8.0_275&amp;apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000101f47909 chromedriver + 2533641
+1   chromedriver                        0x00000001025d1d53 chromedriver + 9391443
+2   chromedriver                        0x0000000101d053c3 chromedriver + 164803
+3   chromedriver                        0x0000000101d1eba5 chromedriver + 269221
+4   chromedriver                        0x0000000101d213f5 chromedriver + 279541
+5   chromedriver                        0x0000000101d1d364 chromedriver + 263012
+6   chromedriver                        0x0000000101d213f5 chromedriver + 279541
+7   chromedriver                        0x0000000101d1948e chromedriver + 246926
+8   chromedriver                        0x0000000101d548f2 chromedriver + 489714
+9   chromedriver                        0x0000000101d54141 chromedriver + 487745
+10  chromedriver                        0x0000000101d5569e chromedriver + 493214
+11  chromedriver                        0x0000000101d50b43 chromedriver + 473923
+12  chromedriver                        0x0000000101d2b616 chromedriver + 321046
+13  chromedriver                        0x0000000101d2c587 chromedriver + 324999
+14  chromedriver                        0x0000000101f167f9 chromedriver + 2332665
+15  chromedriver                        0x0000000101f23963 chromedriver + 2386275
+16  chromedriver                        0x0000000101f2345b chromedriver + 2384987
+17  chromedriver                        0x0000000101efd5b5 chromedriver + 2229685
+18  chromedriver                        0x0000000101f243bf chromedriver + 2388927
+19  chromedriver                        0x0000000101f0bc79 chromedriver + 2288761
+20  chromedriver                        0x0000000101f3af69 chromedriver + 2482025
+21  chromedriver                        0x0000000101f4d103 chromedriver + 2556163
+22  libsystem_pthread.dylib             0x00007fff5d1c62eb _pthread_body + 126
+23  libsystem_pthread.dylib             0x00007fff5d1c9249 _pthread_start + 66
+24  libsystem_pthread.dylib             0x00007fff5d1c540d thread_start + 13
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&amp;lt;init&amp;gt;(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createHeadlessChromeDriver(DriverFactory.java:477)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:381)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1596641851250.run(Script1596641851250.groovy:20)
+	... 13 more
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.InvalidArgumentException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.InvalidArgumentException: invalid argument: entry 0 of &apos;firstMatch&apos; is invalid
+from invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: cannot parse args
+from invalid argument: each argument must be a string
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;C02VN0SVHV2H.local&apos;, ip: &apos;fe80:0:0:0:8ab:7e71:7afa:d4a6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_275&apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000101f47909 chromedriver + 2533641
+1   chromedriver                        0x00000001025d1d53 chromedriver + 9391443
+2   chromedriver                        0x0000000101d053c3 chromedriver + 164803
+3   chromedriver                        0x0000000101d1eba5 chromedriver + 269221
+4   chromedriver                        0x0000000101d213f5 chromedriver + 279541
+5   chromedriver                        0x0000000101d1d364 chromedriver + 263012
+6   chromedriver                        0x0000000101d213f5 chromedriver + 279541
+7   chromedriver                        0x0000000101d1948e chromedriver + 246926
+8   chromedriver                        0x0000000101d548f2 chromedriver + 489714
+9   chromedriver                        0x0000000101d54141 chromedriver + 487745
+10  chromedriver                        0x0000000101d5569e chromedriver + 493214
+11  chromedriver                        0x0000000101d50b43 chromedriver + 473923
+12  chromedriver                        0x0000000101d2b616 chromedriver + 321046
+13  chromedriver                        0x0000000101d2c587 chromedriver + 324999
+14  chromedriver                        0x0000000101f167f9 chromedriver + 2332665
+15  chromedriver                        0x0000000101f23963 chromedriver + 2386275
+16  chromedriver                        0x0000000101f2345b chromedriver + 2384987
+17  chromedriver                        0x0000000101efd5b5 chromedriver + 2229685
+18  chromedriver                        0x0000000101f243bf chromedriver + 2388927
+19  chromedriver                        0x0000000101f0bc79 chromedriver + 2288761
+20  chromedriver                        0x0000000101f3af69 chromedriver + 2482025
+21  chromedriver                        0x0000000101f4d103 chromedriver + 2556163
+22  libsystem_pthread.dylib             0x00007fff5d1c62eb _pthread_body + 126
+23  libsystem_pthread.dylib             0x00007fff5d1c9249 _pthread_start + 66
+24  libsystem_pthread.dylib             0x00007fff5d1c540d thread_start + 13
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&lt;init&gt;(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createHeadlessChromeDriver(DriverFactory.java:477)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:381)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Smart Wait.run(Smart Wait:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615517951068.run(TempTestSuite1615517951068.groovy:39)
+</property>
+  <property name="failed.exception.message">invalid argument: entry 0 of &apos;firstMatch&apos; is invalid
+from invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: cannot parse args
+from invalid argument: each argument must be a string
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;C02VN0SVHV2H.local&apos;, ip: &apos;fe80:0:0:0:8ab:7e71:7afa:d4a6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_275&apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000101f47909 chromedriver + 2533641
+1   chromedriver                        0x00000001025d1d53 chromedriver + 9391443
+2   chromedriver                        0x0000000101d053c3 chromedriver + 164803
+3   chromedriver                        0x0000000101d1eba5 chromedriver + 269221
+4   chromedriver                        0x0000000101d213f5 chromedriver + 279541
+5   chromedriver                        0x0000000101d1d364 chromedriver + 263012
+6   chromedriver                        0x0000000101d213f5 chromedriver + 279541
+7   chromedriver                        0x0000000101d1948e chromedriver + 246926
+8   chromedriver                        0x0000000101d548f2 chromedriver + 489714
+9   chromedriver                        0x0000000101d54141 chromedriver + 487745
+10  chromedriver                        0x0000000101d5569e chromedriver + 493214
+11  chromedriver                        0x0000000101d50b43 chromedriver + 473923
+12  chromedriver                        0x0000000101d2b616 chromedriver + 321046
+13  chromedriver                        0x0000000101d2c587 chromedriver + 324999
+14  chromedriver                        0x0000000101f167f9 chromedriver + 2332665
+15  chromedriver                        0x0000000101f23963 chromedriver + 2386275
+16  chromedriver                        0x0000000101f2345b chromedriver + 2384987
+17  chromedriver                        0x0000000101efd5b5 chromedriver + 2229685
+18  chromedriver                        0x0000000101f243bf chromedriver + 2388927
+19  chromedriver                        0x0000000101f0bc79 chromedriver + 2288761
+20  chromedriver                        0x0000000101f3af69 chromedriver + 2482025
+21  chromedriver                        0x0000000101f4d103 chromedriver + 2556163
+22  libsystem_pthread.dylib             0x00007fff5d1c62eb _pthread_body + 126
+23  libsystem_pthread.dylib             0x00007fff5d1c9249 _pthread_start + 66
+24  libsystem_pthread.dylib             0x00007fff5d1c540d thread_start + 13
+</property>
+</record>
+<record>
+  <date>2021-03-12T09:59:20</date>
+  <millis>1615517960807</millis>
+  <sequence>17</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-12T09:59:20</date>
+  <millis>1615517960809</millis>
+  <sequence>20</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Smart Wait/Smart Wait FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Smart Wait.run(Smart Wait:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615517951068.run(TempTestSuite1615517951068.groovy:39)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: entry 0 of &amp;apos;firstMatch&amp;apos; is invalid
+from invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: cannot parse args
+from invalid argument: each argument must be a string
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;C02VN0SVHV2H.local&amp;apos;, ip: &amp;apos;fe80:0:0:0:8ab:7e71:7afa:d4a6%en0&amp;apos;, os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.14.6&amp;apos;, java.version: &amp;apos;1.8.0_275&amp;apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000101f47909 chromedriver + 2533641
+1   chromedriver                        0x00000001025d1d53 chromedriver + 9391443
+2   chromedriver                        0x0000000101d053c3 chromedriver + 164803
+3   chromedriver                        0x0000000101d1eba5 chromedriver + 269221
+4   chromedriver                        0x0000000101d213f5 chromedriver + 279541
+5   chromedriver                        0x0000000101d1d364 chromedriver + 263012
+6   chromedriver                        0x0000000101d213f5 chromedriver + 279541
+7   chromedriver                        0x0000000101d1948e chromedriver + 246926
+8   chromedriver                        0x0000000101d548f2 chromedriver + 489714
+9   chromedriver                        0x0000000101d54141 chromedriver + 487745
+10  chromedriver                        0x0000000101d5569e chromedriver + 493214
+11  chromedriver                        0x0000000101d50b43 chromedriver + 473923
+12  chromedriver                        0x0000000101d2b616 chromedriver + 321046
+13  chromedriver                        0x0000000101d2c587 chromedriver + 324999
+14  chromedriver                        0x0000000101f167f9 chromedriver + 2332665
+15  chromedriver                        0x0000000101f23963 chromedriver + 2386275
+16  chromedriver                        0x0000000101f2345b chromedriver + 2384987
+17  chromedriver                        0x0000000101efd5b5 chromedriver + 2229685
+18  chromedriver                        0x0000000101f243bf chromedriver + 2388927
+19  chromedriver                        0x0000000101f0bc79 chromedriver + 2288761
+20  chromedriver                        0x0000000101f3af69 chromedriver + 2482025
+21  chromedriver                        0x0000000101f4d103 chromedriver + 2556163
+22  libsystem_pthread.dylib             0x00007fff5d1c62eb _pthread_body + 126
+23  libsystem_pthread.dylib             0x00007fff5d1c9249 _pthread_start + 66
+24  libsystem_pthread.dylib             0x00007fff5d1c540d thread_start + 13
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&amp;lt;init&amp;gt;(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createHeadlessChromeDriver(DriverFactory.java:477)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:381)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''</message>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>openBrowser</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>openBrowser</method>
+      <line>63</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>Smart Wait</class>
+      <method>run</method>
+      <line>20</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>398</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>389</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>368</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>360</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>255</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>203</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>152</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>95</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1615517951068</class>
+      <method>run</method>
+      <line>39</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.InvalidArgumentException: invalid argument: entry 0 of &apos;firstMatch&apos; is invalid
+from invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: cannot parse args
+from invalid argument: each argument must be a string
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;C02VN0SVHV2H.local&apos;, ip: &apos;fe80:0:0:0:8ab:7e71:7afa:d4a6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_275&apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000101f47909 chromedriver + 2533641
+1   chromedriver                        0x00000001025d1d53 chromedriver + 9391443
+2   chromedriver                        0x0000000101d053c3 chromedriver + 164803
+3   chromedriver                        0x0000000101d1eba5 chromedriver + 269221
+4   chromedriver                        0x0000000101d213f5 chromedriver + 279541
+5   chromedriver                        0x0000000101d1d364 chromedriver + 263012
+6   chromedriver                        0x0000000101d213f5 chromedriver + 279541
+7   chromedriver                        0x0000000101d1948e chromedriver + 246926
+8   chromedriver                        0x0000000101d548f2 chromedriver + 489714
+9   chromedriver                        0x0000000101d54141 chromedriver + 487745
+10  chromedriver                        0x0000000101d5569e chromedriver + 493214
+11  chromedriver                        0x0000000101d50b43 chromedriver + 473923
+12  chromedriver                        0x0000000101d2b616 chromedriver + 321046
+13  chromedriver                        0x0000000101d2c587 chromedriver + 324999
+14  chromedriver                        0x0000000101f167f9 chromedriver + 2332665
+15  chromedriver                        0x0000000101f23963 chromedriver + 2386275
+16  chromedriver                        0x0000000101f2345b chromedriver + 2384987
+17  chromedriver                        0x0000000101efd5b5 chromedriver + 2229685
+18  chromedriver                        0x0000000101f243bf chromedriver + 2388927
+19  chromedriver                        0x0000000101f0bc79 chromedriver + 2288761
+20  chromedriver                        0x0000000101f3af69 chromedriver + 2482025
+21  chromedriver                        0x0000000101f4d103 chromedriver + 2556163
+22  libsystem_pthread.dylib             0x00007fff5d1c62eb _pthread_body + 126
+23  libsystem_pthread.dylib             0x00007fff5d1c9249 _pthread_start + 66
+24  libsystem_pthread.dylib             0x00007fff5d1c540d thread_start + 13
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&lt;init&gt;(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createHeadlessChromeDriver(DriverFactory.java:477)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:381)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Smart Wait.run(Smart Wait:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615517951068.run(TempTestSuite1615517951068.groovy:39)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.InvalidArgumentException</property>
+  <property name="failed.exception.message">invalid argument: entry 0 of &apos;firstMatch&apos; is invalid
+from invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: cannot parse args
+from invalid argument: each argument must be a string
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;C02VN0SVHV2H.local&apos;, ip: &apos;fe80:0:0:0:8ab:7e71:7afa:d4a6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_275&apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000101f47909 chromedriver + 2533641
+1   chromedriver                        0x00000001025d1d53 chromedriver + 9391443
+2   chromedriver                        0x0000000101d053c3 chromedriver + 164803
+3   chromedriver                        0x0000000101d1eba5 chromedriver + 269221
+4   chromedriver                        0x0000000101d213f5 chromedriver + 279541
+5   chromedriver                        0x0000000101d1d364 chromedriver + 263012
+6   chromedriver                        0x0000000101d213f5 chromedriver + 279541
+7   chromedriver                        0x0000000101d1948e chromedriver + 246926
+8   chromedriver                        0x0000000101d548f2 chromedriver + 489714
+9   chromedriver                        0x0000000101d54141 chromedriver + 487745
+10  chromedriver                        0x0000000101d5569e chromedriver + 493214
+11  chromedriver                        0x0000000101d50b43 chromedriver + 473923
+12  chromedriver                        0x0000000101d2b616 chromedriver + 321046
+13  chromedriver                        0x0000000101d2c587 chromedriver + 324999
+14  chromedriver                        0x0000000101f167f9 chromedriver + 2332665
+15  chromedriver                        0x0000000101f23963 chromedriver + 2386275
+16  chromedriver                        0x0000000101f2345b chromedriver + 2384987
+17  chromedriver                        0x0000000101efd5b5 chromedriver + 2229685
+18  chromedriver                        0x0000000101f243bf chromedriver + 2388927
+19  chromedriver                        0x0000000101f0bc79 chromedriver + 2288761
+20  chromedriver                        0x0000000101f3af69 chromedriver + 2482025
+21  chromedriver                        0x0000000101f4d103 chromedriver + 2556163
+22  libsystem_pthread.dylib             0x00007fff5d1c62eb _pthread_body + 126
+23  libsystem_pthread.dylib             0x00007fff5d1c9249 _pthread_start + 66
+24  libsystem_pthread.dylib             0x00007fff5d1c540d thread_start + 13
+</property>
+</record>
+<record>
+  <date>2021-03-12T09:59:20</date>
+  <millis>1615517960825</millis>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Smart Wait/Smart Wait</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-12T09:59:20</date>
+  <millis>1615517960855</millis>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Custom-keyword samples/Order and check out a single product using coupon</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Custom-keyword samples/Order and check out a single product using coupon</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Custom-keyword samples/Order and check out a single product using coupon</property>
+  <property name="source">\Users\dungngo.mac\Katalon Studio\Temp\Self-Healing-Webinar-Demo\Test Cases\Custom-keyword samples\Order and check out a single product using coupon.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2021-03-12T09:59:21</date>
+  <millis>1615517961243</millis>
+  <sequence>25</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sample.Login.loginIntoApplicationWithGlobalVariable()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2021-03-12T09:59:21</date>
+  <millis>1615517961778</millis>
+  <sequence>27</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome (headless)&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-12T09:59:21</date>
+  <millis>1615517961781</millis>
+  <sequence>29</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;args&amp;apos;, &amp;apos;[1200.0, 800.0]&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-12T09:59:21</date>
+  <millis>1615517961782</millis>
+  <sequence>30</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-12T09:59:21</date>
+  <millis>1615517961835</millis>
+  <sequence>34</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to open browser with url: &amp;apos;http://cms.demo.katalon.com/my-account&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;http://cms.demo.katalon.com/my-account&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at sample.Login.loginIntoApplication(Login.groovy:34)
+	at sample.Login.loginIntoApplicationWithGlobalVariable(Login.groovy:48)
+	at sample.Login.invokeMethod(Login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Order and check out a single product using coupon.run(Order and check out a single product using coupon:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615517951068.run(TempTestSuite1615517951068.groovy:39)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: entry 0 of &amp;apos;firstMatch&amp;apos; is invalid
+from invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: cannot parse args
+from invalid argument: each argument must be a string
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;C02VN0SVHV2H.local&amp;apos;, ip: &amp;apos;fe80:0:0:0:8ab:7e71:7afa:d4a6%en0&amp;apos;, os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.14.6&amp;apos;, java.version: &amp;apos;1.8.0_275&amp;apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010b653909 chromedriver + 2533641
+1   chromedriver                        0x000000010bcddd53 chromedriver + 9391443
+2   chromedriver                        0x000000010b4113c3 chromedriver + 164803
+3   chromedriver                        0x000000010b42aba5 chromedriver + 269221
+4   chromedriver                        0x000000010b42d3f5 chromedriver + 279541
+5   chromedriver                        0x000000010b429364 chromedriver + 263012
+6   chromedriver                        0x000000010b42d3f5 chromedriver + 279541
+7   chromedriver                        0x000000010b42548e chromedriver + 246926
+8   chromedriver                        0x000000010b4608f2 chromedriver + 489714
+9   chromedriver                        0x000000010b460141 chromedriver + 487745
+10  chromedriver                        0x000000010b46169e chromedriver + 493214
+11  chromedriver                        0x000000010b45cb43 chromedriver + 473923
+12  chromedriver                        0x000000010b437616 chromedriver + 321046
+13  chromedriver                        0x000000010b438587 chromedriver + 324999
+14  chromedriver                        0x000000010b6227f9 chromedriver + 2332665
+15  chromedriver                        0x000000010b62f963 chromedriver + 2386275
+16  chromedriver                        0x000000010b62f45b chromedriver + 2384987
+17  chromedriver                        0x000000010b6095b5 chromedriver + 2229685
+18  chromedriver                        0x000000010b6303bf chromedriver + 2388927
+19  chromedriver                        0x000000010b617c79 chromedriver + 2288761
+20  chromedriver                        0x000000010b646f69 chromedriver + 2482025
+21  chromedriver                        0x000000010b659103 chromedriver + 2556163
+22  libsystem_pthread.dylib             0x00007fff5d1c62eb _pthread_body + 126
+23  libsystem_pthread.dylib             0x00007fff5d1c9249 _pthread_start + 66
+24  libsystem_pthread.dylib             0x00007fff5d1c540d thread_start + 13
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&amp;lt;init&amp;gt;(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createHeadlessChromeDriver(DriverFactory.java:477)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:381)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at sample.Login.loginIntoApplication(Login.groovy:34)
+	at sample.Login.loginIntoApplicationWithGlobalVariable(Login.groovy:48)
+	at sample.Login.invokeMethod(Login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1566468530292.run(Script1566468530292.groovy:16)
+	... 13 more
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.InvalidArgumentException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.InvalidArgumentException: invalid argument: entry 0 of &apos;firstMatch&apos; is invalid
+from invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: cannot parse args
+from invalid argument: each argument must be a string
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;C02VN0SVHV2H.local&apos;, ip: &apos;fe80:0:0:0:8ab:7e71:7afa:d4a6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_275&apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010b653909 chromedriver + 2533641
+1   chromedriver                        0x000000010bcddd53 chromedriver + 9391443
+2   chromedriver                        0x000000010b4113c3 chromedriver + 164803
+3   chromedriver                        0x000000010b42aba5 chromedriver + 269221
+4   chromedriver                        0x000000010b42d3f5 chromedriver + 279541
+5   chromedriver                        0x000000010b429364 chromedriver + 263012
+6   chromedriver                        0x000000010b42d3f5 chromedriver + 279541
+7   chromedriver                        0x000000010b42548e chromedriver + 246926
+8   chromedriver                        0x000000010b4608f2 chromedriver + 489714
+9   chromedriver                        0x000000010b460141 chromedriver + 487745
+10  chromedriver                        0x000000010b46169e chromedriver + 493214
+11  chromedriver                        0x000000010b45cb43 chromedriver + 473923
+12  chromedriver                        0x000000010b437616 chromedriver + 321046
+13  chromedriver                        0x000000010b438587 chromedriver + 324999
+14  chromedriver                        0x000000010b6227f9 chromedriver + 2332665
+15  chromedriver                        0x000000010b62f963 chromedriver + 2386275
+16  chromedriver                        0x000000010b62f45b chromedriver + 2384987
+17  chromedriver                        0x000000010b6095b5 chromedriver + 2229685
+18  chromedriver                        0x000000010b6303bf chromedriver + 2388927
+19  chromedriver                        0x000000010b617c79 chromedriver + 2288761
+20  chromedriver                        0x000000010b646f69 chromedriver + 2482025
+21  chromedriver                        0x000000010b659103 chromedriver + 2556163
+22  libsystem_pthread.dylib             0x00007fff5d1c62eb _pthread_body + 126
+23  libsystem_pthread.dylib             0x00007fff5d1c9249 _pthread_start + 66
+24  libsystem_pthread.dylib             0x00007fff5d1c540d thread_start + 13
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&lt;init&gt;(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createHeadlessChromeDriver(DriverFactory.java:477)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:381)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at sample.Login.loginIntoApplication(Login.groovy:34)
+	at sample.Login.loginIntoApplicationWithGlobalVariable(Login.groovy:48)
+	at sample.Login.invokeMethod(Login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Order and check out a single product using coupon.run(Order and check out a single product using coupon:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615517951068.run(TempTestSuite1615517951068.groovy:39)
+</property>
+  <property name="failed.exception.message">invalid argument: entry 0 of &apos;firstMatch&apos; is invalid
+from invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: cannot parse args
+from invalid argument: each argument must be a string
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;C02VN0SVHV2H.local&apos;, ip: &apos;fe80:0:0:0:8ab:7e71:7afa:d4a6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_275&apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010b653909 chromedriver + 2533641
+1   chromedriver                        0x000000010bcddd53 chromedriver + 9391443
+2   chromedriver                        0x000000010b4113c3 chromedriver + 164803
+3   chromedriver                        0x000000010b42aba5 chromedriver + 269221
+4   chromedriver                        0x000000010b42d3f5 chromedriver + 279541
+5   chromedriver                        0x000000010b429364 chromedriver + 263012
+6   chromedriver                        0x000000010b42d3f5 chromedriver + 279541
+7   chromedriver                        0x000000010b42548e chromedriver + 246926
+8   chromedriver                        0x000000010b4608f2 chromedriver + 489714
+9   chromedriver                        0x000000010b460141 chromedriver + 487745
+10  chromedriver                        0x000000010b46169e chromedriver + 493214
+11  chromedriver                        0x000000010b45cb43 chromedriver + 473923
+12  chromedriver                        0x000000010b437616 chromedriver + 321046
+13  chromedriver                        0x000000010b438587 chromedriver + 324999
+14  chromedriver                        0x000000010b6227f9 chromedriver + 2332665
+15  chromedriver                        0x000000010b62f963 chromedriver + 2386275
+16  chromedriver                        0x000000010b62f45b chromedriver + 2384987
+17  chromedriver                        0x000000010b6095b5 chromedriver + 2229685
+18  chromedriver                        0x000000010b6303bf chromedriver + 2388927
+19  chromedriver                        0x000000010b617c79 chromedriver + 2288761
+20  chromedriver                        0x000000010b646f69 chromedriver + 2482025
+21  chromedriver                        0x000000010b659103 chromedriver + 2556163
+22  libsystem_pthread.dylib             0x00007fff5d1c62eb _pthread_body + 126
+23  libsystem_pthread.dylib             0x00007fff5d1c9249 _pthread_start + 66
+24  libsystem_pthread.dylib             0x00007fff5d1c540d thread_start + 13
+</property>
+</record>
+<record>
+  <date>2021-03-12T09:59:21</date>
+  <millis>1615517961842</millis>
+  <sequence>36</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to open browser with url: &amp;apos;http://cms.demo.katalon.com/my-account&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.InvalidArgumentException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.InvalidArgumentException: invalid argument: entry 0 of &apos;firstMatch&apos; is invalid
+from invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: cannot parse args
+from invalid argument: each argument must be a string
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;C02VN0SVHV2H.local&apos;, ip: &apos;fe80:0:0:0:8ab:7e71:7afa:d4a6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_275&apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010b653909 chromedriver + 2533641
+1   chromedriver                        0x000000010bcddd53 chromedriver + 9391443
+2   chromedriver                        0x000000010b4113c3 chromedriver + 164803
+3   chromedriver                        0x000000010b42aba5 chromedriver + 269221
+4   chromedriver                        0x000000010b42d3f5 chromedriver + 279541
+5   chromedriver                        0x000000010b429364 chromedriver + 263012
+6   chromedriver                        0x000000010b42d3f5 chromedriver + 279541
+7   chromedriver                        0x000000010b42548e chromedriver + 246926
+8   chromedriver                        0x000000010b4608f2 chromedriver + 489714
+9   chromedriver                        0x000000010b460141 chromedriver + 487745
+10  chromedriver                        0x000000010b46169e chromedriver + 493214
+11  chromedriver                        0x000000010b45cb43 chromedriver + 473923
+12  chromedriver                        0x000000010b437616 chromedriver + 321046
+13  chromedriver                        0x000000010b438587 chromedriver + 324999
+14  chromedriver                        0x000000010b6227f9 chromedriver + 2332665
+15  chromedriver                        0x000000010b62f963 chromedriver + 2386275
+16  chromedriver                        0x000000010b62f45b chromedriver + 2384987
+17  chromedriver                        0x000000010b6095b5 chromedriver + 2229685
+18  chromedriver                        0x000000010b6303bf chromedriver + 2388927
+19  chromedriver                        0x000000010b617c79 chromedriver + 2288761
+20  chromedriver                        0x000000010b646f69 chromedriver + 2482025
+21  chromedriver                        0x000000010b659103 chromedriver + 2556163
+22  libsystem_pthread.dylib             0x00007fff5d1c62eb _pthread_body + 126
+23  libsystem_pthread.dylib             0x00007fff5d1c9249 _pthread_start + 66
+24  libsystem_pthread.dylib             0x00007fff5d1c540d thread_start + 13
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&lt;init&gt;(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createHeadlessChromeDriver(DriverFactory.java:477)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:381)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at sample.Login.loginIntoApplication(Login.groovy:34)
+	at sample.Login.loginIntoApplicationWithGlobalVariable(Login.groovy:48)
+	at sample.Login.invokeMethod(Login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Order and check out a single product using coupon.run(Order and check out a single product using coupon:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615517951068.run(TempTestSuite1615517951068.groovy:39)
+</property>
+  <property name="failed.exception.message">invalid argument: entry 0 of &apos;firstMatch&apos; is invalid
+from invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: cannot parse args
+from invalid argument: each argument must be a string
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;C02VN0SVHV2H.local&apos;, ip: &apos;fe80:0:0:0:8ab:7e71:7afa:d4a6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_275&apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010b653909 chromedriver + 2533641
+1   chromedriver                        0x000000010bcddd53 chromedriver + 9391443
+2   chromedriver                        0x000000010b4113c3 chromedriver + 164803
+3   chromedriver                        0x000000010b42aba5 chromedriver + 269221
+4   chromedriver                        0x000000010b42d3f5 chromedriver + 279541
+5   chromedriver                        0x000000010b429364 chromedriver + 263012
+6   chromedriver                        0x000000010b42d3f5 chromedriver + 279541
+7   chromedriver                        0x000000010b42548e chromedriver + 246926
+8   chromedriver                        0x000000010b4608f2 chromedriver + 489714
+9   chromedriver                        0x000000010b460141 chromedriver + 487745
+10  chromedriver                        0x000000010b46169e chromedriver + 493214
+11  chromedriver                        0x000000010b45cb43 chromedriver + 473923
+12  chromedriver                        0x000000010b437616 chromedriver + 321046
+13  chromedriver                        0x000000010b438587 chromedriver + 324999
+14  chromedriver                        0x000000010b6227f9 chromedriver + 2332665
+15  chromedriver                        0x000000010b62f963 chromedriver + 2386275
+16  chromedriver                        0x000000010b62f45b chromedriver + 2384987
+17  chromedriver                        0x000000010b6095b5 chromedriver + 2229685
+18  chromedriver                        0x000000010b6303bf chromedriver + 2388927
+19  chromedriver                        0x000000010b617c79 chromedriver + 2288761
+20  chromedriver                        0x000000010b646f69 chromedriver + 2482025
+21  chromedriver                        0x000000010b659103 chromedriver + 2556163
+22  libsystem_pthread.dylib             0x00007fff5d1c62eb _pthread_body + 126
+23  libsystem_pthread.dylib             0x00007fff5d1c9249 _pthread_start + 66
+24  libsystem_pthread.dylib             0x00007fff5d1c540d thread_start + 13
+</property>
+</record>
+<record>
+  <date>2021-03-12T09:59:21</date>
+  <millis>1615517961844</millis>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sample.Login.loginIntoApplicationWithGlobalVariable()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-12T09:59:21</date>
+  <millis>1615517961845</millis>
+  <sequence>40</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Custom-keyword samples/Order and check out a single product using coupon FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;http://cms.demo.katalon.com/my-account&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at sample.Login.loginIntoApplication(Login.groovy:34)
+	at sample.Login.loginIntoApplicationWithGlobalVariable(Login.groovy:48)
+	at sample.Login.invokeMethod(Login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Order and check out a single product using coupon.run(Order and check out a single product using coupon:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615517951068.run(TempTestSuite1615517951068.groovy:39)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: entry 0 of &amp;apos;firstMatch&amp;apos; is invalid
+from invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: cannot parse args
+from invalid argument: each argument must be a string
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;C02VN0SVHV2H.local&amp;apos;, ip: &amp;apos;fe80:0:0:0:8ab:7e71:7afa:d4a6%en0&amp;apos;, os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.14.6&amp;apos;, java.version: &amp;apos;1.8.0_275&amp;apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010b653909 chromedriver + 2533641
+1   chromedriver                        0x000000010bcddd53 chromedriver + 9391443
+2   chromedriver                        0x000000010b4113c3 chromedriver + 164803
+3   chromedriver                        0x000000010b42aba5 chromedriver + 269221
+4   chromedriver                        0x000000010b42d3f5 chromedriver + 279541
+5   chromedriver                        0x000000010b429364 chromedriver + 263012
+6   chromedriver                        0x000000010b42d3f5 chromedriver + 279541
+7   chromedriver                        0x000000010b42548e chromedriver + 246926
+8   chromedriver                        0x000000010b4608f2 chromedriver + 489714
+9   chromedriver                        0x000000010b460141 chromedriver + 487745
+10  chromedriver                        0x000000010b46169e chromedriver + 493214
+11  chromedriver                        0x000000010b45cb43 chromedriver + 473923
+12  chromedriver                        0x000000010b437616 chromedriver + 321046
+13  chromedriver                        0x000000010b438587 chromedriver + 324999
+14  chromedriver                        0x000000010b6227f9 chromedriver + 2332665
+15  chromedriver                        0x000000010b62f963 chromedriver + 2386275
+16  chromedriver                        0x000000010b62f45b chromedriver + 2384987
+17  chromedriver                        0x000000010b6095b5 chromedriver + 2229685
+18  chromedriver                        0x000000010b6303bf chromedriver + 2388927
+19  chromedriver                        0x000000010b617c79 chromedriver + 2288761
+20  chromedriver                        0x000000010b646f69 chromedriver + 2482025
+21  chromedriver                        0x000000010b659103 chromedriver + 2556163
+22  libsystem_pthread.dylib             0x00007fff5d1c62eb _pthread_body + 126
+23  libsystem_pthread.dylib             0x00007fff5d1c9249 _pthread_start + 66
+24  libsystem_pthread.dylib             0x00007fff5d1c540d thread_start + 13
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&amp;lt;init&amp;gt;(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createHeadlessChromeDriver(DriverFactory.java:477)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:381)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'http://cms.demo.katalon.com/my-account'</message>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>openBrowser</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>openBrowser</method>
+      <line>63</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>sample.Login</class>
+      <method>loginIntoApplication</method>
+      <line>34</line>
+    </frame>
+    <frame>
+      <class>sample.Login</class>
+      <method>loginIntoApplicationWithGlobalVariable</method>
+      <line>48</line>
+    </frame>
+    <frame>
+      <class>sample.Login</class>
+      <method>invokeMethod</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>50</line>
+    </frame>
+    <frame>
+      <class>Order and check out a single product using coupon</class>
+      <method>run</method>
+      <line>16</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>398</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>389</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>368</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>360</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>255</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>203</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>152</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>95</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1615517951068</class>
+      <method>run</method>
+      <line>39</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.InvalidArgumentException: invalid argument: entry 0 of &apos;firstMatch&apos; is invalid
+from invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: cannot parse args
+from invalid argument: each argument must be a string
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;C02VN0SVHV2H.local&apos;, ip: &apos;fe80:0:0:0:8ab:7e71:7afa:d4a6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_275&apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010b653909 chromedriver + 2533641
+1   chromedriver                        0x000000010bcddd53 chromedriver + 9391443
+2   chromedriver                        0x000000010b4113c3 chromedriver + 164803
+3   chromedriver                        0x000000010b42aba5 chromedriver + 269221
+4   chromedriver                        0x000000010b42d3f5 chromedriver + 279541
+5   chromedriver                        0x000000010b429364 chromedriver + 263012
+6   chromedriver                        0x000000010b42d3f5 chromedriver + 279541
+7   chromedriver                        0x000000010b42548e chromedriver + 246926
+8   chromedriver                        0x000000010b4608f2 chromedriver + 489714
+9   chromedriver                        0x000000010b460141 chromedriver + 487745
+10  chromedriver                        0x000000010b46169e chromedriver + 493214
+11  chromedriver                        0x000000010b45cb43 chromedriver + 473923
+12  chromedriver                        0x000000010b437616 chromedriver + 321046
+13  chromedriver                        0x000000010b438587 chromedriver + 324999
+14  chromedriver                        0x000000010b6227f9 chromedriver + 2332665
+15  chromedriver                        0x000000010b62f963 chromedriver + 2386275
+16  chromedriver                        0x000000010b62f45b chromedriver + 2384987
+17  chromedriver                        0x000000010b6095b5 chromedriver + 2229685
+18  chromedriver                        0x000000010b6303bf chromedriver + 2388927
+19  chromedriver                        0x000000010b617c79 chromedriver + 2288761
+20  chromedriver                        0x000000010b646f69 chromedriver + 2482025
+21  chromedriver                        0x000000010b659103 chromedriver + 2556163
+22  libsystem_pthread.dylib             0x00007fff5d1c62eb _pthread_body + 126
+23  libsystem_pthread.dylib             0x00007fff5d1c9249 _pthread_start + 66
+24  libsystem_pthread.dylib             0x00007fff5d1c540d thread_start + 13
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&lt;init&gt;(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createHeadlessChromeDriver(DriverFactory.java:477)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:381)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at sample.Login.loginIntoApplication(Login.groovy:34)
+	at sample.Login.loginIntoApplicationWithGlobalVariable(Login.groovy:48)
+	at sample.Login.invokeMethod(Login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Order and check out a single product using coupon.run(Order and check out a single product using coupon:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615517951068.run(TempTestSuite1615517951068.groovy:39)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.InvalidArgumentException</property>
+  <property name="failed.exception.message">invalid argument: entry 0 of &apos;firstMatch&apos; is invalid
+from invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: cannot parse args
+from invalid argument: each argument must be a string
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;C02VN0SVHV2H.local&apos;, ip: &apos;fe80:0:0:0:8ab:7e71:7afa:d4a6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_275&apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010b653909 chromedriver + 2533641
+1   chromedriver                        0x000000010bcddd53 chromedriver + 9391443
+2   chromedriver                        0x000000010b4113c3 chromedriver + 164803
+3   chromedriver                        0x000000010b42aba5 chromedriver + 269221
+4   chromedriver                        0x000000010b42d3f5 chromedriver + 279541
+5   chromedriver                        0x000000010b429364 chromedriver + 263012
+6   chromedriver                        0x000000010b42d3f5 chromedriver + 279541
+7   chromedriver                        0x000000010b42548e chromedriver + 246926
+8   chromedriver                        0x000000010b4608f2 chromedriver + 489714
+9   chromedriver                        0x000000010b460141 chromedriver + 487745
+10  chromedriver                        0x000000010b46169e chromedriver + 493214
+11  chromedriver                        0x000000010b45cb43 chromedriver + 473923
+12  chromedriver                        0x000000010b437616 chromedriver + 321046
+13  chromedriver                        0x000000010b438587 chromedriver + 324999
+14  chromedriver                        0x000000010b6227f9 chromedriver + 2332665
+15  chromedriver                        0x000000010b62f963 chromedriver + 2386275
+16  chromedriver                        0x000000010b62f45b chromedriver + 2384987
+17  chromedriver                        0x000000010b6095b5 chromedriver + 2229685
+18  chromedriver                        0x000000010b6303bf chromedriver + 2388927
+19  chromedriver                        0x000000010b617c79 chromedriver + 2288761
+20  chromedriver                        0x000000010b646f69 chromedriver + 2482025
+21  chromedriver                        0x000000010b659103 chromedriver + 2556163
+22  libsystem_pthread.dylib             0x00007fff5d1c62eb _pthread_body + 126
+23  libsystem_pthread.dylib             0x00007fff5d1c9249 _pthread_start + 66
+24  libsystem_pthread.dylib             0x00007fff5d1c540d thread_start + 13
+</property>
+</record>
+<record>
+  <date>2021-03-12T09:59:21</date>
+  <millis>1615517961850</millis>
+  <sequence>42</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Custom-keyword samples/Order and check out a single product using coupon</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-12T09:59:21</date>
+  <millis>1615517961854</millis>
+  <sequence>43</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Self-Healing/ID is changed - Neighbor XPath Savior</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Self-Healing/ID is changed - Neighbor XPath Savior</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Self-Healing/ID is changed - Neighbor XPath Savior</property>
+  <property name="source">\Users\dungngo.mac\Katalon Studio\Temp\Self-Healing-Webinar-Demo\Test Cases\Self-Healing\ID is changed - Neighbor XPath Savior.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2021-03-12T09:59:22</date>
+  <millis>1615517962052</millis>
+  <sequence>45</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2021-03-12T09:59:22</date>
+  <millis>1615517962058</millis>
+  <sequence>47</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome (headless)&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-12T09:59:22</date>
+  <millis>1615517962061</millis>
+  <sequence>49</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;args&amp;apos;, &amp;apos;[1200.0, 800.0]&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-12T09:59:22</date>
+  <millis>1615517962062</millis>
+  <sequence>50</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-12T09:59:22</date>
+  <millis>1615517962111</millis>
+  <sequence>54</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to open browser with url: &amp;apos;&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at ID is changed - Neighbor XPath Savior.run(ID is changed - Neighbor XPath Savior:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615517951068.run(TempTestSuite1615517951068.groovy:39)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: entry 0 of &amp;apos;firstMatch&amp;apos; is invalid
+from invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: cannot parse args
+from invalid argument: each argument must be a string
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;C02VN0SVHV2H.local&amp;apos;, ip: &amp;apos;fe80:0:0:0:8ab:7e71:7afa:d4a6%en0&amp;apos;, os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.14.6&amp;apos;, java.version: &amp;apos;1.8.0_275&amp;apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010d900909 chromedriver + 2533641
+1   chromedriver                        0x000000010df8ad53 chromedriver + 9391443
+2   chromedriver                        0x000000010d6be3c3 chromedriver + 164803
+3   chromedriver                        0x000000010d6d7ba5 chromedriver + 269221
+4   chromedriver                        0x000000010d6da3f5 chromedriver + 279541
+5   chromedriver                        0x000000010d6d6364 chromedriver + 263012
+6   chromedriver                        0x000000010d6da3f5 chromedriver + 279541
+7   chromedriver                        0x000000010d6d248e chromedriver + 246926
+8   chromedriver                        0x000000010d70d8f2 chromedriver + 489714
+9   chromedriver                        0x000000010d70d141 chromedriver + 487745
+10  chromedriver                        0x000000010d70e69e chromedriver + 493214
+11  chromedriver                        0x000000010d709b43 chromedriver + 473923
+12  chromedriver                        0x000000010d6e4616 chromedriver + 321046
+13  chromedriver                        0x000000010d6e5587 chromedriver + 324999
+14  chromedriver                        0x000000010d8cf7f9 chromedriver + 2332665
+15  chromedriver                        0x000000010d8dc963 chromedriver + 2386275
+16  chromedriver                        0x000000010d8dc45b chromedriver + 2384987
+17  chromedriver                        0x000000010d8b65b5 chromedriver + 2229685
+18  chromedriver                        0x000000010d8dd3bf chromedriver + 2388927
+19  chromedriver                        0x000000010d8c4c79 chromedriver + 2288761
+20  chromedriver                        0x000000010d8f3f69 chromedriver + 2482025
+21  chromedriver                        0x000000010d906103 chromedriver + 2556163
+22  libsystem_pthread.dylib             0x00007fff5d1c62eb _pthread_body + 126
+23  libsystem_pthread.dylib             0x00007fff5d1c9249 _pthread_start + 66
+24  libsystem_pthread.dylib             0x00007fff5d1c540d thread_start + 13
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&amp;lt;init&amp;gt;(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createHeadlessChromeDriver(DriverFactory.java:477)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:381)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1596636729243.run(Script1596636729243.groovy:20)
+	... 13 more
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.InvalidArgumentException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.InvalidArgumentException: invalid argument: entry 0 of &apos;firstMatch&apos; is invalid
+from invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: cannot parse args
+from invalid argument: each argument must be a string
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;C02VN0SVHV2H.local&apos;, ip: &apos;fe80:0:0:0:8ab:7e71:7afa:d4a6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_275&apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010d900909 chromedriver + 2533641
+1   chromedriver                        0x000000010df8ad53 chromedriver + 9391443
+2   chromedriver                        0x000000010d6be3c3 chromedriver + 164803
+3   chromedriver                        0x000000010d6d7ba5 chromedriver + 269221
+4   chromedriver                        0x000000010d6da3f5 chromedriver + 279541
+5   chromedriver                        0x000000010d6d6364 chromedriver + 263012
+6   chromedriver                        0x000000010d6da3f5 chromedriver + 279541
+7   chromedriver                        0x000000010d6d248e chromedriver + 246926
+8   chromedriver                        0x000000010d70d8f2 chromedriver + 489714
+9   chromedriver                        0x000000010d70d141 chromedriver + 487745
+10  chromedriver                        0x000000010d70e69e chromedriver + 493214
+11  chromedriver                        0x000000010d709b43 chromedriver + 473923
+12  chromedriver                        0x000000010d6e4616 chromedriver + 321046
+13  chromedriver                        0x000000010d6e5587 chromedriver + 324999
+14  chromedriver                        0x000000010d8cf7f9 chromedriver + 2332665
+15  chromedriver                        0x000000010d8dc963 chromedriver + 2386275
+16  chromedriver                        0x000000010d8dc45b chromedriver + 2384987
+17  chromedriver                        0x000000010d8b65b5 chromedriver + 2229685
+18  chromedriver                        0x000000010d8dd3bf chromedriver + 2388927
+19  chromedriver                        0x000000010d8c4c79 chromedriver + 2288761
+20  chromedriver                        0x000000010d8f3f69 chromedriver + 2482025
+21  chromedriver                        0x000000010d906103 chromedriver + 2556163
+22  libsystem_pthread.dylib             0x00007fff5d1c62eb _pthread_body + 126
+23  libsystem_pthread.dylib             0x00007fff5d1c9249 _pthread_start + 66
+24  libsystem_pthread.dylib             0x00007fff5d1c540d thread_start + 13
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&lt;init&gt;(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createHeadlessChromeDriver(DriverFactory.java:477)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:381)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at ID is changed - Neighbor XPath Savior.run(ID is changed - Neighbor XPath Savior:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615517951068.run(TempTestSuite1615517951068.groovy:39)
+</property>
+  <property name="failed.exception.message">invalid argument: entry 0 of &apos;firstMatch&apos; is invalid
+from invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: cannot parse args
+from invalid argument: each argument must be a string
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;C02VN0SVHV2H.local&apos;, ip: &apos;fe80:0:0:0:8ab:7e71:7afa:d4a6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_275&apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010d900909 chromedriver + 2533641
+1   chromedriver                        0x000000010df8ad53 chromedriver + 9391443
+2   chromedriver                        0x000000010d6be3c3 chromedriver + 164803
+3   chromedriver                        0x000000010d6d7ba5 chromedriver + 269221
+4   chromedriver                        0x000000010d6da3f5 chromedriver + 279541
+5   chromedriver                        0x000000010d6d6364 chromedriver + 263012
+6   chromedriver                        0x000000010d6da3f5 chromedriver + 279541
+7   chromedriver                        0x000000010d6d248e chromedriver + 246926
+8   chromedriver                        0x000000010d70d8f2 chromedriver + 489714
+9   chromedriver                        0x000000010d70d141 chromedriver + 487745
+10  chromedriver                        0x000000010d70e69e chromedriver + 493214
+11  chromedriver                        0x000000010d709b43 chromedriver + 473923
+12  chromedriver                        0x000000010d6e4616 chromedriver + 321046
+13  chromedriver                        0x000000010d6e5587 chromedriver + 324999
+14  chromedriver                        0x000000010d8cf7f9 chromedriver + 2332665
+15  chromedriver                        0x000000010d8dc963 chromedriver + 2386275
+16  chromedriver                        0x000000010d8dc45b chromedriver + 2384987
+17  chromedriver                        0x000000010d8b65b5 chromedriver + 2229685
+18  chromedriver                        0x000000010d8dd3bf chromedriver + 2388927
+19  chromedriver                        0x000000010d8c4c79 chromedriver + 2288761
+20  chromedriver                        0x000000010d8f3f69 chromedriver + 2482025
+21  chromedriver                        0x000000010d906103 chromedriver + 2556163
+22  libsystem_pthread.dylib             0x00007fff5d1c62eb _pthread_body + 126
+23  libsystem_pthread.dylib             0x00007fff5d1c9249 _pthread_start + 66
+24  libsystem_pthread.dylib             0x00007fff5d1c540d thread_start + 13
+</property>
+</record>
+<record>
+  <date>2021-03-12T09:59:22</date>
+  <millis>1615517962114</millis>
+  <sequence>55</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-12T09:59:22</date>
+  <millis>1615517962116</millis>
+  <sequence>58</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Self-Healing/ID is changed - Neighbor XPath Savior FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at ID is changed - Neighbor XPath Savior.run(ID is changed - Neighbor XPath Savior:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615517951068.run(TempTestSuite1615517951068.groovy:39)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: entry 0 of &amp;apos;firstMatch&amp;apos; is invalid
+from invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: cannot parse args
+from invalid argument: each argument must be a string
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;C02VN0SVHV2H.local&amp;apos;, ip: &amp;apos;fe80:0:0:0:8ab:7e71:7afa:d4a6%en0&amp;apos;, os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.14.6&amp;apos;, java.version: &amp;apos;1.8.0_275&amp;apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010d900909 chromedriver + 2533641
+1   chromedriver                        0x000000010df8ad53 chromedriver + 9391443
+2   chromedriver                        0x000000010d6be3c3 chromedriver + 164803
+3   chromedriver                        0x000000010d6d7ba5 chromedriver + 269221
+4   chromedriver                        0x000000010d6da3f5 chromedriver + 279541
+5   chromedriver                        0x000000010d6d6364 chromedriver + 263012
+6   chromedriver                        0x000000010d6da3f5 chromedriver + 279541
+7   chromedriver                        0x000000010d6d248e chromedriver + 246926
+8   chromedriver                        0x000000010d70d8f2 chromedriver + 489714
+9   chromedriver                        0x000000010d70d141 chromedriver + 487745
+10  chromedriver                        0x000000010d70e69e chromedriver + 493214
+11  chromedriver                        0x000000010d709b43 chromedriver + 473923
+12  chromedriver                        0x000000010d6e4616 chromedriver + 321046
+13  chromedriver                        0x000000010d6e5587 chromedriver + 324999
+14  chromedriver                        0x000000010d8cf7f9 chromedriver + 2332665
+15  chromedriver                        0x000000010d8dc963 chromedriver + 2386275
+16  chromedriver                        0x000000010d8dc45b chromedriver + 2384987
+17  chromedriver                        0x000000010d8b65b5 chromedriver + 2229685
+18  chromedriver                        0x000000010d8dd3bf chromedriver + 2388927
+19  chromedriver                        0x000000010d8c4c79 chromedriver + 2288761
+20  chromedriver                        0x000000010d8f3f69 chromedriver + 2482025
+21  chromedriver                        0x000000010d906103 chromedriver + 2556163
+22  libsystem_pthread.dylib             0x00007fff5d1c62eb _pthread_body + 126
+23  libsystem_pthread.dylib             0x00007fff5d1c9249 _pthread_start + 66
+24  libsystem_pthread.dylib             0x00007fff5d1c540d thread_start + 13
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&amp;lt;init&amp;gt;(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createHeadlessChromeDriver(DriverFactory.java:477)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:381)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''</message>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>openBrowser</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>openBrowser</method>
+      <line>63</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>ID is changed - Neighbor XPath Savior</class>
+      <method>run</method>
+      <line>20</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>398</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>389</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>368</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>360</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>255</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>203</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>152</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>95</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1615517951068</class>
+      <method>run</method>
+      <line>39</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.InvalidArgumentException: invalid argument: entry 0 of &apos;firstMatch&apos; is invalid
+from invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: cannot parse args
+from invalid argument: each argument must be a string
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;C02VN0SVHV2H.local&apos;, ip: &apos;fe80:0:0:0:8ab:7e71:7afa:d4a6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_275&apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010d900909 chromedriver + 2533641
+1   chromedriver                        0x000000010df8ad53 chromedriver + 9391443
+2   chromedriver                        0x000000010d6be3c3 chromedriver + 164803
+3   chromedriver                        0x000000010d6d7ba5 chromedriver + 269221
+4   chromedriver                        0x000000010d6da3f5 chromedriver + 279541
+5   chromedriver                        0x000000010d6d6364 chromedriver + 263012
+6   chromedriver                        0x000000010d6da3f5 chromedriver + 279541
+7   chromedriver                        0x000000010d6d248e chromedriver + 246926
+8   chromedriver                        0x000000010d70d8f2 chromedriver + 489714
+9   chromedriver                        0x000000010d70d141 chromedriver + 487745
+10  chromedriver                        0x000000010d70e69e chromedriver + 493214
+11  chromedriver                        0x000000010d709b43 chromedriver + 473923
+12  chromedriver                        0x000000010d6e4616 chromedriver + 321046
+13  chromedriver                        0x000000010d6e5587 chromedriver + 324999
+14  chromedriver                        0x000000010d8cf7f9 chromedriver + 2332665
+15  chromedriver                        0x000000010d8dc963 chromedriver + 2386275
+16  chromedriver                        0x000000010d8dc45b chromedriver + 2384987
+17  chromedriver                        0x000000010d8b65b5 chromedriver + 2229685
+18  chromedriver                        0x000000010d8dd3bf chromedriver + 2388927
+19  chromedriver                        0x000000010d8c4c79 chromedriver + 2288761
+20  chromedriver                        0x000000010d8f3f69 chromedriver + 2482025
+21  chromedriver                        0x000000010d906103 chromedriver + 2556163
+22  libsystem_pthread.dylib             0x00007fff5d1c62eb _pthread_body + 126
+23  libsystem_pthread.dylib             0x00007fff5d1c9249 _pthread_start + 66
+24  libsystem_pthread.dylib             0x00007fff5d1c540d thread_start + 13
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&lt;init&gt;(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createHeadlessChromeDriver(DriverFactory.java:477)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:381)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at ID is changed - Neighbor XPath Savior.run(ID is changed - Neighbor XPath Savior:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615517951068.run(TempTestSuite1615517951068.groovy:39)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.InvalidArgumentException</property>
+  <property name="failed.exception.message">invalid argument: entry 0 of &apos;firstMatch&apos; is invalid
+from invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: cannot parse args
+from invalid argument: each argument must be a string
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;C02VN0SVHV2H.local&apos;, ip: &apos;fe80:0:0:0:8ab:7e71:7afa:d4a6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_275&apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010d900909 chromedriver + 2533641
+1   chromedriver                        0x000000010df8ad53 chromedriver + 9391443
+2   chromedriver                        0x000000010d6be3c3 chromedriver + 164803
+3   chromedriver                        0x000000010d6d7ba5 chromedriver + 269221
+4   chromedriver                        0x000000010d6da3f5 chromedriver + 279541
+5   chromedriver                        0x000000010d6d6364 chromedriver + 263012
+6   chromedriver                        0x000000010d6da3f5 chromedriver + 279541
+7   chromedriver                        0x000000010d6d248e chromedriver + 246926
+8   chromedriver                        0x000000010d70d8f2 chromedriver + 489714
+9   chromedriver                        0x000000010d70d141 chromedriver + 487745
+10  chromedriver                        0x000000010d70e69e chromedriver + 493214
+11  chromedriver                        0x000000010d709b43 chromedriver + 473923
+12  chromedriver                        0x000000010d6e4616 chromedriver + 321046
+13  chromedriver                        0x000000010d6e5587 chromedriver + 324999
+14  chromedriver                        0x000000010d8cf7f9 chromedriver + 2332665
+15  chromedriver                        0x000000010d8dc963 chromedriver + 2386275
+16  chromedriver                        0x000000010d8dc45b chromedriver + 2384987
+17  chromedriver                        0x000000010d8b65b5 chromedriver + 2229685
+18  chromedriver                        0x000000010d8dd3bf chromedriver + 2388927
+19  chromedriver                        0x000000010d8c4c79 chromedriver + 2288761
+20  chromedriver                        0x000000010d8f3f69 chromedriver + 2482025
+21  chromedriver                        0x000000010d906103 chromedriver + 2556163
+22  libsystem_pthread.dylib             0x00007fff5d1c62eb _pthread_body + 126
+23  libsystem_pthread.dylib             0x00007fff5d1c9249 _pthread_start + 66
+24  libsystem_pthread.dylib             0x00007fff5d1c540d thread_start + 13
+</property>
+</record>
+<record>
+  <date>2021-03-12T09:59:22</date>
+  <millis>1615517962119</millis>
+  <sequence>60</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Self-Healing/ID is changed - Neighbor XPath Savior</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-12T09:59:22</date>
+  <millis>1615517962121</millis>
+  <sequence>61</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-12T09:59:22</date>
+  <millis>1615517962269</millis>
+  <sequence>131</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: /Users/dungngo.mac/Katalon Studio/Temp/Self-Healing-Webinar-Demo/Reports/20210312_095911/Demo Test Suite/20210312_095911...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-12T09:59:22</date>
+  <millis>1615517962289</millis>
+  <sequence>132</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-12T09:59:22</date>
+  <millis>1615517962289</millis>
+  <sequence>133</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: /Users/dungngo.mac/Katalon Studio/Temp/Self-Healing-Webinar-Demo/Reports/20210312_095911/Demo Test Suite/20210312_095911...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-12T09:59:22</date>
+  <millis>1615517962298</millis>
+  <sequence>134</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-12T09:59:22</date>
+  <millis>1615517962298</millis>
+  <sequence>136</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-12T09:59:22</date>
+  <millis>1615517962395</millis>
+  <sequence>137</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Demo Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

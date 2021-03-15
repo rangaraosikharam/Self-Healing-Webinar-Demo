@@ -6,14 +6,6 @@
    <elementGuidId>388090df-d395-4e3e-b81a-7df16ac1b67f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#combo_facility</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//select[@id='combo_facility-1']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@id = 'combo_facility' and @name = 'facility' and (text() = '
                             Tokyo CURA Healthcare Center
@@ -24,6 +16,14 @@
                             Hongkong CURA Healthcare Center
                             Seoul CURA Healthcare Center
                         ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='combo_facility-1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#combo_facility</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

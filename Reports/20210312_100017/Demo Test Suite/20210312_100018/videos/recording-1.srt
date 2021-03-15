@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+2
+00:00:00,000 --> 00:00:00,889
+5. navigateToUrl("https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html#page1")
+
+3
+00:00:00,901 --> 00:00:01,280
+9. click(findTestObject("Object Repository/Page_A simple AJAX website with jQuery/a_Page 2"))
+
+4
+00:00:01,281 --> 00:00:01,295
+13. delay(3)
+
+5
+00:00:01,296 --> 00:00:02,307
+17. verifyElementText(findTestObject("Object Repository/Page_A simple AJAX website with jQuery/div_Aliquam imperdiet tempor facilisis Sed _4b0df1"), "Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat.")
+

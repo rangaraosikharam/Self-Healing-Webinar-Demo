@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo Test Suite,,,,2021-03-12 09:59:19,2021-03-12 09:59:22,2.999s,FAILED
+,,,,,,,
+Test Cases/Smart Wait/Smart Wait,,,,2021-03-12 09:59:19,2021-03-12 09:59:20,1.048s,FAILED
+"openBrowser("""")",,,,2021-03-12 09:59:20,2021-03-12 09:59:20,0.659s,FAILED
+,,,,,,,
+Test Cases/Custom-keyword samples/Order and check out a single product using coupon,,,,2021-03-12 09:59:20,2021-03-12 09:59:21,0.995s,FAILED
+sample.Login.loginIntoApplicationWithGlobalVariable(),,,,2021-03-12 09:59:21,2021-03-12 09:59:21,0.601s,FAILED
+,,,,,,,
+Test Cases/Self-Healing/ID is changed - Neighbor XPath Savior,,,,2021-03-12 09:59:21,2021-03-12 09:59:22,0.265s,FAILED
+"openBrowser("""")",,,,2021-03-12 09:59:22,2021-03-12 09:59:22,0.062s,FAILED

@@ -4,17 +4,22 @@
    <name>a_Checkout</name>
    <tag></tag>
    <elementGuidId>a01bc28d-4fa2-4d43-9791-ab0864c8d082</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.page_item.page-item-9.focus > a</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='primary-menu']/ul/li[2]/a</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>li.page_item.page-item-9.focus > a</value>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>IMAGE</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

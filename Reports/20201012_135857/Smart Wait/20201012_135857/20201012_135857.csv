@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Smart Wait,,,,2020-10-12 13:58:59,2020-10-12 13:59:03,3.717s,FAILED
-,,,,,,,
-Test Cases/Smart Wait/Smart Wait,,,,2020-10-12 13:59:00,2020-10-12 13:59:03,3.308s,FAILED
-"openBrowser("""")",,,,2020-10-12 13:59:00,2020-10-12 13:59:03,3.032s,FAILED

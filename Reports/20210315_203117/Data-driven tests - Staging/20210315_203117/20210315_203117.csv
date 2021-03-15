@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data-driven tests - Staging,Chrome 89.0.4389.82,,,2021-03-15 20:31:26,2021-03-15 20:34:24,2m - 57.783s,PASSED
+,,,,,,,
+Test Cases/Data-driven samples/Order and check out a product,Chrome 89.0.4389.82,,,2021-03-15 20:31:28,2021-03-15 20:33:10,1m - 42.159s,PASSED
+sample.Login.loginIntoApplicationWithGlobalVariable(),Chrome 89.0.4389.82,,,2021-03-15 20:31:28,2021-03-15 20:31:47,18.933s,PASSED
+"waitForElementPresent(findTestObject(""Pages/Shop page/lnkShop""), waitPresentTimeout)",Chrome 89.0.4389.82,,,2021-03-15 20:31:47,2021-03-15 20:31:48,0.389s,PASSED
+"click(findTestObject(""Pages/Shop page/lnkShop""))",Chrome 89.0.4389.82,,,2021-03-15 20:31:48,2021-03-15 20:31:50,2.557s,PASSED
+"sample.Shop.addToCart(productName, urlProduct)",Chrome 89.0.4389.82,,,2021-03-15 20:31:50,2021-03-15 20:31:59,8.879s,PASSED
+sample.Checkout.CheckoutShopWithGlobalVariable(),Chrome 89.0.4389.82,,,2021-03-15 20:31:59,2021-03-15 20:32:36,37.123s,PASSED
+closeBrowser(),Chrome 89.0.4389.82,,,2021-03-15 20:32:36,2021-03-15 20:32:36,0.317s,PASSED
+,,,,,,,
+Test Cases/Data-driven samples/Order and check out a product,Chrome 89.0.4389.82,,,2021-03-15 20:33:10,2021-03-15 20:34:24,1m - 14.324s,PASSED
+sample.Login.loginIntoApplicationWithGlobalVariable(),Chrome 89.0.4389.82,,,2021-03-15 20:33:10,2021-03-15 20:33:23,12.932s,PASSED
+"waitForElementPresent(findTestObject(""Pages/Shop page/lnkShop""), waitPresentTimeout)",Chrome 89.0.4389.82,,,2021-03-15 20:33:23,2021-03-15 20:33:23,0.319s,PASSED
+"click(findTestObject(""Pages/Shop page/lnkShop""))",Chrome 89.0.4389.82,,,2021-03-15 20:33:23,2021-03-15 20:33:27,3.589s,PASSED
+"sample.Shop.addToCart(productName, urlProduct)",Chrome 89.0.4389.82,,,2021-03-15 20:33:27,2021-03-15 20:33:35,8.525s,PASSED
+sample.Checkout.CheckoutShopWithGlobalVariable(),Chrome 89.0.4389.82,,,2021-03-15 20:33:35,2021-03-15 20:34:10,34.282s,PASSED
+closeBrowser(),Chrome 89.0.4389.82,,,2021-03-15 20:34:10,2021-03-15 20:34:10,0.252s,PASSED

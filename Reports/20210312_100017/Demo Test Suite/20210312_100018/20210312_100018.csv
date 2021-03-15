@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo Test Suite,Chrome 89.0.4389.82,,,2021-03-12 10:00:27,2021-03-12 10:01:33,1m - 6.324s,FAILED
+,,,,,,,
+Test Cases/Smart Wait/Smart Wait,Chrome 89.0.4389.82,,,2021-03-12 10:00:27,2021-03-12 10:00:33,5.295s,FAILED
+"openBrowser("""")",Chrome 89.0.4389.82,,,2021-03-12 10:00:28,2021-03-12 10:00:30,2.154s,PASSED
+"navigateToUrl(""https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html#page1"")",Chrome 89.0.4389.82,,,2021-03-12 10:00:30,2021-03-12 10:00:31,0.973s,PASSED
+"click(findTestObject(""Object Repository/Page_A simple AJAX website with jQuery/a_Page 2""))",Chrome 89.0.4389.82,,,2021-03-12 10:00:31,2021-03-12 10:00:31,0.380s,PASSED
+delay(3),Chrome 89.0.4389.82,,,2021-03-12 10:00:31,2021-03-12 10:00:31,0.013s,NOT_RUN
+"verifyElementText(findTestObject(""Object Repository/Page_A simple AJAX website with jQuery/div_Aliquam imperdiet tempor facilisis Sed _4b0df1""), ""Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."")",Chrome 89.0.4389.82,,,2021-03-12 10:00:31,2021-03-12 10:00:32,1.006s,FAILED
+Video,Chrome 89.0.4389.82,,,2021-03-12 10:00:33,2021-03-12 10:00:33,0.000s,PASSED
+,,,,,,,
+Test Cases/Custom-keyword samples/Order and check out a single product using coupon,Chrome 89.0.4389.82,,,2021-03-12 10:00:33,2021-03-12 10:01:18,45.429s,PASSED
+sample.Login.loginIntoApplicationWithGlobalVariable(),Chrome 89.0.4389.82,,,2021-03-12 10:00:33,2021-03-12 10:00:42,8.692s,PASSED
+"waitForElementPresent(findTestObject(""Pages/Shop page/lnkShop""), waitPresentTimeout)",Chrome 89.0.4389.82,,,2021-03-12 10:00:42,2021-03-12 10:00:42,0.061s,PASSED
+"click(findTestObject(""Pages/Shop page/lnkShop""))",Chrome 89.0.4389.82,,,2021-03-12 10:00:42,2021-03-12 10:00:46,3.774s,PASSED
+sample.Shop.applyCouponAndAddToCartWithGlobalVariable(),Chrome 89.0.4389.82,,,2021-03-12 10:00:46,2021-03-12 10:01:01,15.693s,PASSED
+sample.Checkout.CheckoutShopWithGlobalVariable(),Chrome 89.0.4389.82,,,2021-03-12 10:01:01,2021-03-12 10:01:11,9.495s,PASSED
+sample.Login.logoutFromApplication(),Chrome 89.0.4389.82,,,2021-03-12 10:01:11,2021-03-12 10:01:14,2.909s,PASSED
+closeBrowser(),Chrome 89.0.4389.82,,,2021-03-12 10:01:14,2021-03-12 10:01:14,0.137s,PASSED
+,,,,,,,
+Test Cases/Self-Healing/ID is changed - Neighbor XPath Savior,Chrome 89.0.4389.82,,,2021-03-12 10:01:18,2021-03-12 10:01:33,14.852s,FAILED
+"openBrowser("""")",Chrome 89.0.4389.82,,,2021-03-12 10:01:18,2021-03-12 10:01:19,0.541s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 89.0.4389.82,,,2021-03-12 10:01:19,2021-03-12 10:01:22,3.298s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 89.0.4389.82,,,2021-03-12 10:01:22,2021-03-12 10:01:23,0.927s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 89.0.4389.82,,,2021-03-12 10:01:23,2021-03-12 10:01:23,0.281s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 89.0.4389.82,,,2021-03-12 10:01:23,2021-03-12 10:01:24,0.465s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 89.0.4389.82,,,2021-03-12 10:01:24,2021-03-12 10:01:25,0.719s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center""), ""Hongkong CURA Healthcare Center"", true)",Chrome 89.0.4389.82,,,2021-03-12 10:01:25,2021-03-12 10:01:31,6.587s,FAILED
+Video,Chrome 89.0.4389.82,,,2021-03-12 10:01:33,2021-03-12 10:01:33,0.001s,PASSED

@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Smart Wait,Chrome 85.0.4183.121,,,2020-10-12 13:50:22,2020-10-12 13:50:27,5.107s,FAILED
-,,,,,,,
-Test Cases/Smart Wait/Smart Wait,Chrome 85.0.4183.121,,,2020-10-12 13:50:22,2020-10-12 13:50:27,4.828s,FAILED
-"openBrowser("""")",Chrome 85.0.4183.121,,,2020-10-12 13:50:23,2020-10-12 13:50:25,2.461s,PASSED
-"navigateToUrl(""https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html#page1"")",Chrome 85.0.4183.121,,,2020-10-12 13:50:25,2020-10-12 13:50:26,0.797s,PASSED
-"click(findTestObject(""Object Repository/Page_A simple AJAX website with jQuery/a_Page 2""))",Chrome 85.0.4183.121,,,2020-10-12 13:50:26,2020-10-12 13:50:26,0.217s,PASSED
-"verifyElementText(findTestObject(""Object Repository/Page_A simple AJAX website with jQuery/div_Aliquam imperdiet tempor facilisis Sed _4b0df1""), ""Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."")",Chrome 85.0.4183.121,,,2020-10-12 13:50:26,2020-10-12 13:50:27,1.049s,FAILED
